@@ -170,10 +170,49 @@
                     System.out.println("[9] 21.15");
                     secim = read.nextInt();
 
+                    default;
 
 
+                        public class Musteri {
+                            String ad;
+                            String email;
 
+                            public Musteri(String ad, String email) {
+                                this.ad = ad;
+                                this.email = email;
+                            }
+
+                            @Override
+                            public String toString() {
+                                return "Müşteri: " + ad + ", Email: " + email;
+                            }
                         }
+
+                }
+
+            int secilecekkoltuksayisi;
+                secilecekkoltuksayisi min= 1;
+                secilecekkoltuksayisi max= 20;
+
+            secim = read.nextLine(1-20);
+                System.out.println("koltuk sayisi seciniz.");
+                break;
+
+
+                int yas;
+                int biletfiyati;
+
+                        System.out.println("Yaşınızı giriniz.");
+
+                if yas <= 18
+                biletfiyati == 125
+
+                        else
+                biletfiyati == 175
+
+                break;
+
+
 
 
 
