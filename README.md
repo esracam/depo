@@ -5,4 +5,3 @@ Kullanıcıya İstanbul'un hangi yakasında yaşadığını sorar, böylece sine
 Seçim tanımlaması yaparak seans seçeneği sundum ancak eksik.
 int ile seçilecek koltuk sayısını tanımladım ve min ile max değerlerini verdim. böylece biri en az 1, en fazla 20 koltukluk bilet satın alabilir.
 kullanıcının yaşına göre eğer kullanıcı 18 yaşından büyükse, indirim yapılmaz ve standart bilet ücreti uygulanır. Ancak kullanıcı 18 ve 18'den küçükse 50 liralık bir inidrim uygulanır.
-En sonda iste biletlerin listelenip tek çatı altında toplanmasını amaçladım.
