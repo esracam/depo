@@ -5,7 +5,7 @@
 
         public static void main(String[]args)  {
         Scanner read = new Scanner(System.in);
-        int choose = read.nextInt();
+        int secim = read.nextInt();
 
         System.out.println("Vizyondaki filmlerden dilediğinizi seçiniz." + "\n");
         System.out.println("(1) Maria");
@@ -18,9 +18,9 @@
         System.out.println("(8) Yürüyen Şato");
         System.out.println("(9) Persona");
         System.out.println("(10)Çocuk ve Balıkçıl");
-        choose = read.nextInt();
+        secim = read.nextInt();
 
-        switch (choose)   {
+        switch (secim)   {
             case 1:
                 System.out.println("Maria");
                 System.out.println("1970’lerin Paris’inde, dünyaca ünlü opera" +
@@ -141,10 +141,43 @@
                             break;
                         case 2:
                             istanbulanadolu(scanner);
+                            break;
                         case 3:
                             istanbultumu(scanner);
+                            break;
+
+                        default:
 
                     }
+
+                    //tarih secilecek.
+
+                    public static void main() {
+                        Scanner scanner = new Scanner(System.in);
+                        int secim;
+
+                do {
+
+                    System.out.println("Lutfen seans seciniz.");
+                    System.out.println("[1] 09.00");
+                    System.out.println("[2] 11.00");
+                    System.out.println("[3] 12.15");
+                    System.out.println("[4] 13.30");
+                    System.out.println("[5] 16.45");
+                    System.out.println("[6] 18.00");
+                    System.out.println("[7] 19.25");
+                    System.out.println("[8] 20.30");
+                    System.out.println("[9] 21.15");
+                    secim = read.nextInt();
+
+
+
+
+                        }
+
+
+
+
                 }
                 }
 
