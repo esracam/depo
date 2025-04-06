@@ -1,7 +1,7 @@
     package switch_example;
     import java.util.Scanner;
 
-    public class switch_example {
+        class sinemabiletialimi {
 
         public static void main(String[]args)  {
         Scanner read = new Scanner(System.in);
@@ -35,21 +35,30 @@
                                    "zorunda kalan Hamlet, bu ağır yükü omuzlarında taşıyamaz ve " +
                                    "içsel çatışmalarla boğuşurken akıl sağlığını ve ülkesinin " +
                                    "güvenliğini riske atar.\n");
+                break;
             case 3:
                 System.out.println("Bataklık");
-                System.out.println("The Bayou, Louisiana Bayou'da korkunç bir yırtıcı tarafından" +
-                                   "kovalanan bir grup arkadaşın hikayesini konu ediyor.\n" +
-                                    "\n");
+                System.out.println("""
+                        The Bayou, Louisiana Bayou'da korkunç bir yırtıcı tarafından\
+                        kovalanan bir grup arkadaşın hikayesini konu ediyor.
+                        
+                        """);
+                break;
             case 4:
                 System.out.println("Acıya Yer yok");
-                System.out.println("Acıya Yer Yok filmi, hoşlandığı kadını kurtarmak için acıyı " +
-                                   "hissetmeme durumunu kullanan Nate'in verdiği mücadeleyi anlatıyor.\n" +
-                                    "\n");
+                System.out.println("""
+                        Acıya Yer Yok filmi, hoşlandığı kadını kurtarmak için acıyı \
+                        hissetmeme durumunu kullanan Nate'in verdiği mücadeleyi anlatıyor.
+                        
+                        """);
+                break;
             case 5:
                 System.out.println("Kaptan Amerika: Cesur Yeni Dünya");
                 System.out.println("Film, yeni seçilen ABD Başkanı Thaddeus Ross ile bir görüşmesinin" +
                                    "ardından kendini uluslararası bir krizin ortasında bulan yeni " +
                                    "Kaptan Amerika Sam Wilson’ın hikâyesini anlatıyor.\n");
+                break;
+
             case 6:
                 System.out.println("Exorcism Chronicles: Başlangıç");
                 System.out.println("Peder Park, doğaüstü kötülüklere inanmayı reddeden bir kilise" +
@@ -59,17 +68,23 @@
                                    "yardım ister. Görevi, saf ama olağanüstü güçlere sahip bir çocuğu" +
                                    "şeytani bir efendiden korumaktır. Peder Park, bu mücadelede yalnızca" +
                                    "karanlık güçlerle değil, kendi geçmişiyle de yüzleşmek zorunda kalır.\n");
+                break;
+
             case 7:
                 System.out.println("Komşum Totoro");
-                System.out.println("Komşum Totoro'da anneleri, isimlendirmeyen ve uzun süreli bir hastalığa" +
-                                   "yakalandığında ona daha yakın olmak için yattığı hastanenin yakınındaki" +
-                                   "eski bir eve taşınmak isteyen iki küçük kız, bir profesör olan babalarını" +
-                                   "da ikna edip bu kırsal yere taşınırlar. Küçük kızlar Satsuki ve Mei zamanla" +
-                                   "evin içerisinde onlarla birlikte yaşamakta olan, bazı varlıkların olduğunu " +
-                                   "fark ederler. Bu varlıklardan bir şekilde kurtulduklarında, evlerinin karşısındaki" +
-                                   "ormanda karşılaştıkları büyüleyici varlıklar iki kardeşi büyülü bir dünyanın " +
-                                   "içerisine sürüklerler.\n" +
-                                    "\n");
+                System.out.println("""
+                        Komşum Totoro'da anneleri, isimlendirmeyen ve uzun süreli bir hastalığa\
+                        yakalandığında ona daha yakın olmak için yattığı hastanenin yakınındaki\
+                        eski bir eve taşınmak isteyen iki küçük kız, bir profesör olan babalarını\
+                        da ikna edip bu kırsal yere taşınırlar. Küçük kızlar Satsuki ve Mei zamanla\
+                        evin içerisinde onlarla birlikte yaşamakta olan, bazı varlıkların olduğunu \
+                        fark ederler. Bu varlıklardan bir şekilde kurtulduklarında, evlerinin karşısındaki\
+                        ormanda karşılaştıkları büyüleyici varlıklar iki kardeşi büyülü bir dünyanın \
+                        içerisine sürüklerler.
+                        
+                        """);
+                break;
+
 
             case 8:
                 System.out.println("Yürüyen Şato");
@@ -80,6 +95,9 @@
                                    "görünüme bürünmüştür. Bu yüzden büyük bir umutsuzluğa kapılan ve yaşadığı" +
                                    "yeri terk etmek zorunda kalan Sophie, Howl isimli yürüyen bir şatoda yaşayan" +
                                    "bir büyücünün yanına yerleşir.\n");
+                break;
+
+
             case 9:
                 System.out.println("Persona");
                 System.out.println("Dönemin en gözde tiyatro oyuncusu, güzeller güzeli Elisabeth Vogler," +
@@ -88,6 +106,9 @@
                                    "konuşmamaya devam eder. Son çare olarak bir kliniğe yatırılan kadın" +
                                    "burada da dilsizliğine devam eder. Bedeninde tıbbi olarak hiçbir problem" +
                                    "bulunamayan kadın, doktorun tavsiyesiyle gözden uzak bir yazlığa gönderilir.\n");
+                break;
+
+
             case 10:
                 System.out.println("Çocuk ve Balıkçıl");
                 System.out.println("Çocuk ve Balıkçıl, İkinci Dünya Savaşı sırasında geçiyor ve küçük Mahito’yu" +
@@ -95,10 +116,39 @@
                                    "zorunda kalır. Burada terk edilmiş bir kulenin civarında oynar, gri bir balıkçıl" +
                                    "kuşu sürekli karşısına çıkar. Kısa süre sonra hiçbir şeyin aslında göründüğü gibi" +
                                    "olmadığını anlar.\n");
+                break;
 
 
-
+            default:
+                throw new IllegalStateException("Unexpected value: " + choose);
         }
+
+            public static void main() {
+                Scanner scanner = new Scanner(System.in);
+                int secim;
+
+                do {
+                    System.out.println("Lutfen asagidaki seceneklerden birini secin.\n");
+                    System.out.println("(1)İstanbul Avrupa");
+                    System.out.println("(2)İstanbul Anadolu");
+                    System.out.println("(3)İstanbul tumu");
+                    secim = scanner.nextInt();
+                    scanner.nextLine();
+
+                    switch (secim) {
+                        case 1:
+                            istanbulavrupa(scanner);
+                            break;
+                        case 2:
+                            istanbulanadolu(scanner);
+                        case 3:
+                            istanbultumu(scanner);
+
+                    }
+                }
+                }
+
     }
+
 
 }
