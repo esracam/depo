@@ -1,3 +1,3 @@
 public class AnaCLass {
-    System.out.println("beyefendi");
+    System.out.println("istanbul");
 }
